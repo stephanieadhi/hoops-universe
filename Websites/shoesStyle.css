@@ -1,0 +1,605 @@
+*, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header & Footer */
+
+header
+{
+    width: 100%;
+    height: 5.5vw;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-logo
+{
+    margin-left: 2.5vw;
+}
+
+.logo{
+    height: 8vw;
+}
+
+.logo:hover
+{
+    opacity: 0.8;
+}
+
+.dropdown
+{
+    margin-right: 2.5vw;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu{
+    height: 3vw;
+}
+
+.dropbtn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+  
+.dropdown-content {
+    font-size: 1vw;
+    font-weight: 600;
+    display: none;
+    position: absolute;
+    background-color: white;
+    border-radius: 1.5vw;
+    right: 0;
+    min-width: 160px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 3;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 1vw 3vw;
+    text-decoration: none;
+    display: block;
+}
+
+.shoes-button
+{
+    font-size: 1vw;
+    font-weight: 600;
+    border : none;
+    padding: 1vw 3vw;
+    background-color: white;
+    border-radius: 1.5vw;
+    display: block;
+}
+
+.shoes-content
+{
+    color: black;
+    font-weight: 500;
+    padding: 0vw 3vw;
+    text-decoration: none;
+    display: block;
+}
+
+.accessories-content
+{
+    color: black;
+    font-weight: 500;
+    padding: 0vw 3vw;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {opacity: 0.5;;}  
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.shoes-button:hover .shoes-content{display: block;}
+  
+.dropdown:hover .dropbtn {opacity: 0.5;;}
+
+.footer-section-find-us
+{
+    margin-right: 19vw;
+}
+
+.location
+{
+    width: 20vw;
+    padding: 0.5vw 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.location pre
+{
+    font-size: 0.8vw;
+}
+
+
+.para p, .footer-section-partner-brand p
+{
+    font-size: 0.9vw;
+    font-weight: 505;
+    width: auto;
+    height: auto;
+}
+
+.footer-section-partner-brand
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 28vw;
+}
+
+.partner img{
+    height: 2.5vw;
+    width: 2.5vw;
+    margin-top: 0.5vw;
+  }
+
+.footer-section-social-media
+ {
+    font-size: 0.9vw;
+    font-weight: 505;
+    text-align: center;
+ }
+
+ .partner img:hover
+ {
+     opacity: 0.8;
+ }
+
+ .socials
+ {
+    padding: 0.5vw 0;
+    }
+  .socials img{
+   
+    height: 2vw;
+    margin: 0.1vw;
+    width: 2vw;
+  }
+
+.socials img:hover
+{
+    opacity: 0.8;
+}
+
+.footer{
+    background: #000000;
+    color: #ffffff;
+    height: fit-content;
+    width: 100%;
+    position: relative;
+ }
+
+.footer-content{
+     padding: 3vw 5.5vw 2vw 5.5vw;
+     height: 10vw;
+     display: flex;
+     align-items: flex-start;
+
+ }
+
+ 
+ .footer .footer-bottom{
+     background: black;
+     color: #ffffff;
+     height: 3vw;
+     width: 100%;
+     position: absolute;
+     bottom: 0px;
+     left: 0px;
+     padding-top: 1vw;
+     font-size: 0.8vw;
+     text-align: center;
+ }
+
+ 
+ @media screen and (max-width: 1080px)
+ {
+    header
+    {
+        width: 100%;
+        height: 10vw;
+        background-color: #ffffff;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo{
+        height: 15vw;
+    }
+
+    .dropdown-menu{
+        margin-top: 1vw;
+        height: 6vw;
+    }
+
+    .dropdown-content {
+        font-size: 1.8vw;
+        
+    }
+
+    .shoes-button
+    {
+        font-size: 1.8vw;
+    }
+
+
+
+
+    .footer
+    {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .footer-content
+    {
+        display: flex;
+        align-items: flex-start;
+        padding-top: 5vw;
+        height: 20vw;
+    }
+
+    .para p
+    {
+        font-size: 1.5vw;
+    }
+
+    .footer-section-find-us
+    {
+        display: flex;
+        margin-right: 19vw;
+    }
+
+    .location pre
+    {
+        font-size: 1.3vw;
+    }
+
+    .footer-section-partner-brand
+    {
+        display: flex;
+        text-align: center;
+        margin-right: 21vw;
+    }
+
+    .footer-section-partner-brand p
+    {
+        font-size: 1.5vw;
+    }
+
+    .partner img{
+        height: 4vw;
+        width: 4vw;
+        margin-top: 0.5vw;
+    }
+
+    .partner
+    {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .footer-section-social-media
+    {
+        font-size: 1.5vw;
+        font-weight: 505;
+        text-align: center;
+    }
+
+    .socials
+    {
+        padding: 0.5vw 0;
+    }
+
+    .socials img{
+    
+        height: 3vw;
+        width: 3vw;
+    }
+
+    .footer .footer-bottom{
+        font-size: 1.5vw;
+        padding: 2vw 0;
+        text-align: center;
+    }
+ }
+
+
+
+
+ 
+main
+{
+    margin : 3.5vw 5.5vw;
+}
+
+h1
+{
+    font-size : 2vw;
+    /* background-color: greenyellow; */
+}
+
+a
+{
+    text-decoration: none;
+}
+
+/* Category */
+.category
+{
+    padding: 4vw 0vw;
+    height : 6vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+
+.category a
+{
+    height : 6vw;
+}
+
+.box
+{
+    border-radius: 1.5vw;
+    height : 100%;
+    width: 13vw;
+    padding : 1vw 2vw;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-category
+{
+    height : 100%;
+    width: 13vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.nike, .puma
+{
+    width: 70%;
+    height: auto;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.adidas, .airjordan
+{
+    width: 50%;
+    height: auto;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.box-category:hover > .nike
+{
+    opacity: 0.7;
+}
+
+.box-category:hover > .adidas
+{
+    opacity: 0.7;
+}
+
+.box-category:hover > .airjordan
+{
+    opacity: 0.7;
+}
+
+.box-category:hover > .puma
+{
+    opacity: 0.7;
+}
+
+
+
+/* Products */
+.products-tab
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 7.43vw;
+    width: 100%;
+    height: auto;
+    padding-top: 2vw ;
+    padding-bottom: 10vw;
+    /* background-color: blueviolet; */
+}
+
+.products
+{
+    height: 12vw;
+    width: 16.5vw;
+    transition: 0.3s;
+    /* background-color: aquamarine; */
+}
+
+.products img
+{
+    height: 12vw;
+    width: 16.5vw;
+}
+
+.products:hover > .products-detail 
+{
+    opacity: 0.7;
+}
+
+.products img:hover
+{
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.products-detail
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    /* background-color: aqua; */
+}
+
+.products-detail 
+{
+    font-size: 0.8vw;
+    padding: 0.5vw 0;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.details
+{
+    color: black;
+    float: left;
+}
+
+.details .title
+{
+    font-weight:501;
+}
+
+.products img
+{
+    width: auto;
+    height: 100%;
+}
+
+.button_buy
+{
+    background-color: black;
+    border-radius: 0.5vw;
+    padding: 0.5vw 1vw;
+    
+    color: white;
+    float: right;
+}
+
+@media screen and (max-width: 1080px)
+{
+    main
+    {
+        margin : 7vw 5.5vw;
+    }
+
+    h1
+    {
+        font-size : 5vw;
+        /* background-color: greenyellow; */
+    }
+
+    .category
+    {
+        margin: 3vw 0vw;
+    }
+
+    .box
+    {
+        border-radius: 1.5vw;
+        height : 10vw;
+        width: 15vw;
+        padding : 1vw 2vw;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box-category
+    {
+        height : 100%;
+        width: 13vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background-color: aqua; */
+    }
+
+    .nike, .puma
+    {
+        width: 100%;
+        height: auto;
+        opacity: 1;
+        transition: 0.3s;
+    }
+
+    .adidas, .airjordan
+    {
+        width: 80%;
+        height: auto;
+        opacity: 1;
+        transition: 0.3s;
+    }
+
+
+    .products-tab
+    {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 16vw 6.5vw;
+    }
+    
+    .products
+    {
+        height: 29.4vw;
+        width: 40.8vw;
+        padding: 0;
+        margin: 0;
+        transition: 0.3s;
+        /* background-color: aquamarine; */
+    }
+
+    .products img
+    {
+        height: 29.4vw;
+        width: 40.8vw;
+    }
+
+    .products-detail 
+    {
+        font-size: 1.8vw;
+        padding: 0.5vw 0;
+        opacity: 1;
+        transition: 0.3s;
+    }
+
+    .products img
+    {
+        width: auto;
+        height: 100%;
+    }
+
+    .button_buy
+    {
+        background-color: black;
+        border-radius: 1vw;
+        padding: 1vw 2vw;
+        
+        color: white;
+        float: right;
+    }
+}
+
+

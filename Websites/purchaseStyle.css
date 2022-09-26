@@ -1,0 +1,294 @@
+*, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header & Footer */
+header
+{
+    width: 100%;
+    height: 5.5vw;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-logo
+{
+    margin-left: 2.5vw;
+}
+
+.logo{
+    height: 8vw;
+}
+
+.logo:hover
+{
+    opacity: 0.8;
+}
+
+.dropdown
+{
+    margin-right: 2.5vw;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu{
+    height: 3vw;
+}
+
+.dropbtn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+  
+.dropdown-content {
+    font-size: 1vw;
+    font-weight: 600;
+    display: none;
+    position: absolute;
+    background-color: white;
+    border-radius: 1.5vw;
+    right: 0;
+    min-width: 160px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 1vw 3vw;
+    text-decoration: none;
+    display: block;
+}
+
+.shoes-button
+{
+    font-size: 1vw;
+    font-weight: 600;
+    border : none;
+    padding: 1vw 3vw;
+    background-color: white;
+    border-radius: 1.5vw;
+    display: block;
+}
+
+.shoes-content
+{
+    color: black;
+    font-weight: 500;
+    padding: 0vw 3vw;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {opacity: 0.5;;}  
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.shoes-button:hover .shoes-content{display: block;}
+  
+.dropdown:hover .dropbtn {opacity: 0.5;;}
+
+.footer-section-find-us
+{
+    margin-right: 19vw;
+}
+
+.location
+{
+    width: 20vw;
+    padding: 0.5vw 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.location pre
+{
+    font-size: 0.8vw;
+}
+
+
+.para p, .footer-section-partner-brand p
+{
+    font-size: 0.9vw;
+    font-weight: 505;
+    width: auto;
+    height: auto;
+}
+
+.footer-section-partner-brand
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 28vw;
+}
+
+.partner img{
+    height: 2.5vw;
+    width: 2.5vw;
+    margin-top: 0.5vw;
+  }
+
+.footer-section-social-media
+ {
+    font-size: 0.9vw;
+    font-weight: 505;
+    text-align: center;
+ }
+
+ .partner img:hover
+ {
+     opacity: 0.8;
+ }
+
+ .socials
+ {
+    padding: 0.5vw 0;
+    }
+  .socials img{
+   
+    height: 2vw;
+    margin: 0.1vw;
+    width: 2vw;
+  }
+
+.socials img:hover
+{
+    opacity: 0.8;
+}
+
+.footer{
+    background: #000000;
+    color: #ffffff;
+    height: 15vw;
+    width: 100%;
+    position: relative;
+ }
+
+.footer-content{
+     padding: 3vw 5.5vw 1vw 5.5vw;
+     height: 10vw;
+     display: flex;
+     align-items: flex-start;
+
+ }
+
+ 
+ .footer .footer-bottom{
+     background: black;
+     color: #ffffff;
+     height: 3vw;
+     width: 100%;
+     position: absolute;
+     bottom: 0px;
+     left: 0px;
+     padding-top: 1vw;
+     font-size: 0.8vw;
+     text-align: center;
+ }
+
+ 
+ 
+
+@-webkit-keyframes fade {
+  from {opacity: 0.4;} 
+  to {opacity: 1;}
+}
+ 
+@keyframes fade {
+  from {opacity: 0.4;} 
+  to {opacity: 1;}
+}
+ 
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px;}
+}
+ 
+@media only screen and (max-width: 100px) {
+  .prev, .next,.text {font-size: 14px;}
+}
+
+
+ 
+main
+{
+    margin : 3.5vw 5.5vw;
+}
+
+h1
+{
+    font-size : 2vw;
+    /* background-color: greenyellow; */
+}
+
+a
+{
+    text-decoration: none;
+}
+
+/* Content */
+main h1{
+    opacity: 75%;
+}
+
+.add{
+    width: 80px;
+    height: 100px;
+    border-style: solid;
+    font-size: 100px;
+    opacity: 50%;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.pform
+{
+    padding: 10px;
+}
+
+.pform input[type="email"], input[type="text"], input[type="tel"], input[type="number"],textarea{
+    display: block;
+    width: 98%;
+    border: 1px solid #CACACA;
+    padding: 10px;
+ }
+
+ form div{
+	padding: 5px;
+}
+
+.pform span {
+    display: block;
+}
+
+.pform input[type="radio"]{
+    margin: 3px 5px 0px 5px;
+}
+
+.pform input[type="button"]{
+    background-color: rgb(44, 43, 43);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    display: inline-block;
+    width: 75px;
+    height: 40px;
+}
+
+.pform input[type="button"]:hover{
+    opacity: 70%;
+}
+
+.error{
+    color: red;
+}
